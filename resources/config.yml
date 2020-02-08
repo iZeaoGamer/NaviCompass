@@ -17,7 +17,7 @@ VERSION: "2.0.0" # Internal use only
 # "external" will use an IP address and port to move players between SERVERS
 # "internal" will use your preset command string to move players between WORLDS
 # "hybrid" will include both transfer types
-Transfer-Type: "hybrid"
+Transfer-Type: "external"
 
 # This is the command string that will be used to transfer players between WORLDS
 # Don't worry about this if you're only using the EXTERNAL transfer type
@@ -40,7 +40,7 @@ Selector:
 
   # Choose what slot of the player's inventory the selector should appear in
   # The range for this input is 0-35 (0-8 are the player's hotbar)
-  Slot: 0
+  Slot: 3
 
   # This is the text that will show on the selector in the player's inventory
   Name: "§l§aServer Selector"
@@ -75,5 +75,5 @@ UI:
 # Add SERVERS using this format → ext:ServerTitle:ServerIP:ServerPort:ImageType:Path/URL
 # Add WORLDS using this format → int:WorldTitle:WorldAlias:ImageType:Path/URL
 List:
-  - "ext:§l§2Prison §eServer:play.xenoservers.net:19133:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/prison.png" # ← EXTERNAL server example
-  - "int:§l§5Creative:xenoCreative:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/creative.png" # ← INTERNAL world example
+  - "ext:§l§2Factions §eServer:factions.ramshard.net:25569:url:https://cdn.discordapp.com/attachments/287268036887707650/675834517550006303/100F86DB-2151-4AB2-9AFF-A9515FE8B2E2.png" # ← EXTERNAL server example
+  #- "int:§l§5Creative:xenoCreative:url:file.xenoservers.net/Resources/GitHub-Resources/navicompass/creative.png" # ← INTERNAL world example
